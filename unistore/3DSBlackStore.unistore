@@ -18,14 +18,14 @@
 		"info": {
 			"title": "FBI (CIA)",
 			"version": "2.6.0",
-			"author": " Steveice10",
+			"author": "Steveice10",
 			"description": "L'installateur de CIAs le plus utilisé",
 			"iconIndex": 0,
 			"fileSize": 1151936
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": " Steveice10/FBI",
+			"repo": "Steveice10/FBI",
 			"file": "FBI.cia",
 			"output": "sdmc:/FBI.cia",
 			"message": "Téléchargement de FBI..."
