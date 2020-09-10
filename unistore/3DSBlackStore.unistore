@@ -16,46 +16,56 @@
 	"storeContent": [
 		{
 		"info": {
-			"title": "3DEins (Release CIA)",
-			"version": "0.2.0",
-			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"title": "FBI (CIA)",
+			"version": "2.6.0",
+			"author": " Steveice10",
+			"description": "L'installateur de CIAs le plus utilisé",
 			"iconIndex": 0,
-			"fileSize": 1086400
+			"fileSize": 1151936
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Universal-Team/3DEins",
-			"file": "3DEins.cia",
-			"output": "sdmc:/3DEins.cia",
-			"message": "Downloading 3DEins..."
+			"repo": " Steveice10/FBI",
+			"file": "FBI.cia",
+			"output": "sdmc:/FBI.cia",
+			"message": "Téléchargement de FBI..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DEins.cia",
-			"message": "Installing 3DEins..."
+			"file": "/FBI.cia",
+			"message": "Installation de FBI..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/3DEins.cia",
-			"message": "Deleting unneded file."
+			"file": "sdmc:/FBI.cia",
+			"message": "Suppression du cache."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Release 3DSX)",
-			"version": "0.2.0",
-			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"title": "PictoChatDS (CIA)",
+			"version": "",
+			"author": "Nintendo",
+			"description": "Le pictochat officiel pour 3DS",
 			"iconIndex": 0,
-			"fileSize": 1351328
+			"fileSize": 493760
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Universal-Team/3DEins",
-			"file": "3DEins.3dsx",
-			"output": "sdmc:/3ds/3DEins.3dsx",
-			"message": "Downloading 3DEins..."
+			"repo": "BlackFalcon1961/3DSBlackStore",
+			"file": "PictoChatDS.cia",
+			"output": "sdmc:/PictoChatDS.cia",
+			"message": "Téléchargement de PictoChatDS..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PictoChatDS.cia",
+			"message": "Installation de PictoChatDS..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/PictoChatDS.cia",
+			"message": "Suppression du cache."
 		}]
 	},
 	{
