@@ -79,7 +79,7 @@
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "NAME/EXAMPLE",
+			"repo": "BlackFalcon1961/3DSBlackStore",
 			"file": "EXAMPLE.3dsx",
 			"output": "sdmc:/3ds/EXAMPLE.3dsx",
 			"message": "Downloading EXAMPLE..."
