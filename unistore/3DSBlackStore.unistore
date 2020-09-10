@@ -121,22 +121,5 @@
 			"file": "sdmc:/PictoChatDS.cia",
 			"message": "Suppression du cache."
 		}]
-	},
-	{
-		"info": {
-			"title": "EXAMPLE (3DSX)",
-			"version": "",
-			"author": "AUTHOR",
-			"description": "Desc EXAMPLE",
-			"iconIndex": 0,
-			"fileSize": SIZE (in octets)
-		},
-		"script": [{
-			"type": "downloadRelease",
-			"repo": "BlackFalcon1961/3DSBlackStore",
-			"file": "EXAMPLE.3dsx",
-			"output": "sdmc:/3ds/EXAMPLE.3dsx",
-			"message": "Downloading EXAMPLE..."
-		}]
 	}
 }
