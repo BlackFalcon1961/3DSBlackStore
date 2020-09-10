@@ -4,6 +4,7 @@
 		"author": "BlackFalcon1961",
 		"url": "https://github.com/BlackFalcon1961/3DSBlackStore/raw/master/unistore/3DSBlackStore.unistore",
 		"file": "sdmc:/3ds/Universal-Updater/stores/3DSBlackStore.unistore",
+		"displayInformation": false,
 		"description": "Store de BlackFalcon1961.\nCette version est compatible avec d'anciennes versions\nAmusez-vous dans le store ! ~BlackFalcon1961.",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
