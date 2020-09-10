@@ -67,22 +67,22 @@
 			"file": "sdmc:/PictoChatDS.cia",
 			"message": "Suppression du cache."
 		}]
-	}#,
-	#{
-	#	"info": {
-	#		"title": "EXAMPLE (3DSX)",
-	#		"version": "",
-	#		"author": "AUTHOR",
-	#		"description": "Desc EXAMPLE",
-	#		"iconIndex": 0,
-	#		"fileSize": 924748
-	#	},
-	#	"script": [{
-	#		"type": "downloadRelease",
-	#		"repo": "NAME/EXAMPLE",
-	#		"file": "EXAMPLE.3dsx",
-	#		"output": "sdmc:/3ds/EXAMPLE.3dsx",
-	#		"message": "Downloading EXAMPLE..."
-	#	}]
-	#}
+	},
+	{
+		"info": {
+			"title": "EXAMPLE (3DSX)",
+			"version": "",
+			"author": "AUTHOR",
+			"description": "Desc EXAMPLE",
+			"iconIndex": 0,
+			"fileSize": 924748
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "NAME/EXAMPLE",
+			"file": "EXAMPLE.3dsx",
+			"output": "sdmc:/3ds/EXAMPLE.3dsx",
+			"message": "Downloading EXAMPLE..."
+		}]
+	}
 }
