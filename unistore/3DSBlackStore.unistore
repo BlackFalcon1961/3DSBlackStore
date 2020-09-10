@@ -43,6 +43,60 @@
 	},
 	{
 		"info": {
+			"title": "PKSM (CIA)",
+			"version": "9.2.0",
+			"author": "FlagBrew",
+			"description": "Un puissant éditeur de saves Pokémon",
+			"iconIndex": 0,
+			"fileSize": 6112192
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "BlackFalcon1961/3DSBlackStore",
+			"file": "PKSM.cia",
+			"output": "sdmc:/PKSM.cia",
+			"message": "Téléchargement de PKSM..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PKSM.cia",
+			"message": "Installation de PKSM..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/PKSM.cia",
+			"message": "Suppression du cache."
+		}]
+	},
+	{
+		"info": {
+			"title": "FTPD (CIA)",
+			"version": "3.0.0",
+			"author": "mtheall",
+			"description": "Un client FTP pour 3DS",
+			"iconIndex": 0,
+			"fileSize": 787392
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "BlackFalcon1961/3DSBlackStore",
+			"file": "FTPD.cia",
+			"output": "sdmc:/FTPD.cia",
+			"message": "Téléchargement de FTPD..."
+		},
+		{
+			"type": "installCia",
+			"file": "/FTPD.cia",
+			"message": "Installation de FTPD..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/FTPD.cia",
+			"message": "Suppression du cache."
+		}]
+	},
+	{
+		"info": {
 			"title": "PictoChatDS (CIA)",
 			"version": "",
 			"author": "Nintendo",
@@ -75,7 +129,7 @@
 			"author": "AUTHOR",
 			"description": "Desc EXAMPLE",
 			"iconIndex": 0,
-			"fileSize": 924748
+			"fileSize": SIZE (in octets)
 		},
 		"script": [{
 			"type": "downloadRelease",
