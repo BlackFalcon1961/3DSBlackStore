@@ -1,0 +1,88 @@
+{
+	"storeInfo": {
+		"title": "3DSBlackStore",
+		"author": "BlackFalcon1961",
+		"url": "https://github.com/BlackFalcon1961/3DSBlackStore/raw/master/unistore/3DSBlackStore.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/3DSBlackStore.unistore",
+		"description": "Store de BlackFalcon1961.\nCette version est compatible avec d'anciennes versions\nAmusez-vous dans le store ! ~BlackFalcon1961.",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 0
+	},
+	"storeContent": [
+		{
+		"info": {
+			"title": "FBI (CIA)",
+			"version": "2.6.0",
+			"author": "Steveice10",
+			"description": "L'installateur de CIAs le plus utilisé",
+			"iconIndex": 0,
+			"fileSize": 1151936
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "BlackFalcon1961/3DSBlackStore",
+			"file": "FBI.cia",
+			"output": "sdmc:/FBI.cia",
+			"message": "Téléchargement de FBI..."
+		},
+		{
+			"type": "installCia",
+			"file": "/FBI.cia",
+			"message": "Installation de FBI..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/FBI.cia",
+			"message": "Suppression du cache."
+		}]
+	},
+	{
+		"info": {
+			"title": "PictoChatDS (CIA)",
+			"version": "",
+			"author": "Nintendo",
+			"description": "Le pictochat officiel pour 3DS",
+			"iconIndex": 0,
+			"fileSize": 493760
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "BlackFalcon1961/3DSBlackStore",
+			"file": "PictoChatDS.cia",
+			"output": "sdmc:/PictoChatDS.cia",
+			"message": "Téléchargement de PictoChatDS..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PictoChatDS.cia",
+			"message": "Installation de PictoChatDS..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/PictoChatDS.cia",
+			"message": "Suppression du cache."
+		}]
+	},
+	{
+		"info": {
+			"title": "EXAMPLE (3DSX)",
+			"version": "",
+			"author": "AUTHOR",
+			"description": "Desc EXAMPLE",
+			"iconIndex": 0,
+			"fileSize": 924748
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "NAME/EXAMPLE",
+			"file": "EXAMPLE.3dsx",
+			"output": "sdmc:/3ds/EXAMPLE.3dsx",
+			"message": "Downloading EXAMPLE..."
+		}]
+	}
+}
